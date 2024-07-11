@@ -1,0 +1,100 @@
+Model loaded successfully.
+Scaler loaded successfully.
+Received form data: {'title': 4, 'location': None, 'rate_persqft': 3748.24, 'area_insqft': 7239, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Received form data: {'title': 4, 'location': None, 'rate_persqft': 3748.24, 'area_insqft': 7239, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Received form data: {'title': 4, 'location': None, 'rate_persqft': 3748.24, 'area_insqft': 7239, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Received form data: {'title': 4, 'location': None, 'rate_persqft': 3748.24, 'area_insqft': 7239, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Received form data: {'title': 4, 'location': None, 'rate_persqft': 3748.24, 'area_insqft': 7239, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Received form data: {'title': 4, 'location': None, 'rate_persqft': 3748.24, 'area_insqft': 7239, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Received form data: {'title': 4, 'location': None, 'rate_persqft': 3748.24, 'area_insqft': 7239, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Received form data: {'title': 4, 'location': None, 'rate_persqft': 3748.24, 'area_insqft': 7239, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Received form data: {'title': 4, 'location': None, 'rate_persqft': 3748.24, 'area_insqft': 7239, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Received form data: {'title': 4, 'location': None, 'rate_persqft': 3748.24, 'area_insqft': 7239, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Received form data: {'title': 4, 'location': None, 'rate_persqft': 3748.24, 'area_insqft': 7239, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Received form data: {'title': 5, 'location': None, 'rate_persqft': 278, 'area_insqft': 138, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Model loaded successfully.
+Scaler loaded successfully.
+Model loaded successfully.
+Scaler loaded successfully.
+Model loaded successfully.
+Scaler loaded successfully.
+Received form data: {'title': 6, 'location': None, 'rate_persqft': 326, 'area_insqft': 2378, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Received form data: {'title': 10, 'location': None, 'rate_persqft': 378, 'area_insqft': 3278, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Model loaded successfully.
+Scaler loaded successfully.
+Model loaded successfully.
+Scaler loaded successfully.
+Model loaded successfully.
+Scaler loaded successfully.
+Model loaded successfully.
+Scaler loaded successfully.
+Received form data: {'title': 10, 'location': None, 'rate_persqft': 378, 'area_insqft': 3278, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Model loaded successfully.
+Scaler loaded successfully.
+Model loaded successfully.
+Scaler loaded successfully.
+Model loaded successfully.
+Scaler loaded successfully.
+Received form data: {'title': 5, 'location': None, 'rate_persqft': 2673, 'area_insqft': 362, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Received form data: {'title': 5, 'location': None, 'rate_persqft': 2673, 'area_insqft': 362, 'building_status': None}
+Error during prediction: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Model loaded successfully.
+Scaler loaded successfully.
+Model loaded successfully.
+Scaler loaded successfully.
+Model loaded successfully.
+Scaler loaded successfully.
+Model loaded successfully.
+Scaler loaded successfully.
+Received form data: {'title': '3 BHK Independent Floor', 'location': 'Patighanpur', 'rate_persqft': 288, 'area_insqft': 2787, 'building_status': 'Ready to move'}
+ValueError during prediction: invalid literal for int() with base 10: '3 BHK Independent Floor'
+Model loaded successfully.
+Scaler loaded successfully.
+Received form data: {'title': '2 BHK Independent Floor', 'location': 'Uppal Kalan', 'rate_persqft': 355, 'area_insqft': 435, 'building_status': 'New'}
+Input data: [17, 8, 355.0, 435.0, 1]
+Scaled input data: [[ 0.25026597 -1.80500765 -0.90485639 -0.86823446 -0.25503882]]
+Prediction result: [4.0952]
+Received form data: {'title': '3 BHK Independent Floor', 'location': 'Kukatpally', 'rate_persqft': 3555566, 'area_insqft': 4356, 'building_status': 'Resale'}
+Input data: [8, 5, 3555566.0, 4356.0, 3]
+Scaled input data: [[ -0.79762537  -1.83569475 667.90042112   1.27487781   1.32305429]]
+Prediction result: [1649.53]
+Received form data: {'title': '3 BHK Independent House', 'location': 'Jeedimetla', 'rate_persqft': 2378723, 'area_insqft': 236, 'building_status': 'Resale'}
+Input data: [6, 7, 2378723.0, 236.0, 3]
+Scaled input data: [[ -1.03049011  -1.81523668 446.51305221  -0.97700246   1.32305429]]
+Prediction result: [590.5691]
+Model loaded successfully.
+Scaler loaded successfully.
+Model loaded successfully.
+Scaler loaded successfully.
+Model loaded successfully.
+Scaler loaded successfully.
+Model loaded successfully.
+Scaler loaded successfully.
+Received form data: {'title': '5 BHK Independent House', 'location': 'Kukatpally', 'rate_persqft': 348, 'area_insqft': 3434, 'building_status': 'Ready to move'}
+Input data: [9, 5, 348.0, 3434.0, 2]
+Scaled input data: [[-0.681193   -1.83569475 -0.90617323  0.77093762  0.53400774]]
+Prediction result: [22.672]
+Model loaded successfully.
+Scaler loaded successfully.
+Model loaded successfully.
+Scaler loaded successfully.
+Received form data: {'title': '3 BHK Independent House', 'location': 'SBH Colony', 'rate_persqft': 6000, 'area_insqft': 500, 'building_status': 'Resale'}
+Input data: [6, 255, 6000.0, 500.0, 3]
+Scaled input data: [[-1.03049011  0.72156316  0.1570794  -0.83270722  1.32305429]]
+Prediction result: [36.605]

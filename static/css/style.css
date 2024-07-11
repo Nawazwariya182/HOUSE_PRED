@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* New color scheme */
+:root {
+    --primary-color: #3f51b5;  /* Dark Blue */
+    --secondary-color: #ff5722;  /* Orange */
+    --background-color: #f8f9fa;  /* Light Gray */
+    --text-color: #212121;  /* Black */
+    --form-background: #ffffff;  /* White */
+    --form-border: #ced4da;  /* Light Gray */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--form-background);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.form-check-inline {
+    width: calc(25% - 15px);
+    padding: 10px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.form-check-inline:hover {
+    background-color: darken(var(--secondary-color), 10%);
+}
+
+.form-check-input {
+    margin-top: 0;
+}
+
+.form-check-label {
+    margin-left: 5px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.form-group label {
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.form-control {
+    border: 1px solid var(--form-border);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: darken(var(--primary-color), 10%);
+    border-color: darken(var(--primary-color), 10%);
+}
+
+#result {
+    text-align: center;
+    color: #28a745;  /* Green */
+    font-weight: bold;
+    border: 2px solid var(--primary-color);
+    line-height: 10px;
+}

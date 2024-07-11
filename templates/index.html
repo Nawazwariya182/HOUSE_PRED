@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
+</head>
+<body style="body{
+    font-family: poppins;
+}">
+    <div class="container mt-5">
+        <h2>House Price Prediction</h2>
+        <form id="predictionForm">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <select class="form-control" id="title" name="title" required>
+                    <option value="" disabled selected>Select Title</option>
+                    {% for title in titles %}
+                        <option value="{{ title }}">{{ title }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="location">Location</label>
+                <select class="form-control" id="location" name="location" required>
+                    <option value="" disabled selected>Select Location</option>
+                    {% for location in locations %}
+                        <option value="{{ location }}">{{ location }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="rate_persqft">Rate per Sqft</label>
+                <input type="number" step="0.01" class="form-control" id="rate_persqft" name="rate_persqft" required>
+            </div>
+            <div class="form-group">
+                <label for="area_insqft">Area in Sqft</label>
+                <input type="number" step="0.01" class="form-control" id="area_insqft" name="area_insqft" required>
+            </div>
+            <div class="form-group">
+                <label for="building_status">Building Status</label>
+                <select class="form-control" id="building_status" name="building_status" required>
+                    <option value="" disabled selected>Select Building Status</option>
+                    {% for status in building_statuses %}
+                        <option value="{{ status }}">{{ status }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Predict</button>
+        </form>
+        <textarea class="form-control mt-3" id="result" rows="3" readonly></textarea>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
